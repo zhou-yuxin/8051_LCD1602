@@ -57,5 +57,23 @@ Otherwire, you should change the macro LCD1602_PORT and the LCD1602_RS,LCD1602_R
 </p>
 
 <p>
-详情请见<a href="https://zhoujianshi.github.io/articles/LCD1602%E7%9A%84%E4%BD%BF%E7%94%A8/index.html">《LCD1602的使用》</a>
+With the wiring shown above, you can run test.c, and you can see "hello,world!"
+<br>
+使用上面连线，你可以运行test.c，然后可以看到“hello,world!”
 </p>
+
+<pre>
+#include &lt;reg51.h&gt;
+#include &quot;lcd1602.h&quot;
+
+void main()
+{
+	lcd1602_init();
+	lcd1602_display_switch(true,true,true);
+	lcd1602_string_set(0,0,&quot;hello,&quot;);
+	lcd1602_string_set(4,1,&quot;world!&quot;);
+	while(1);
+}
+</pre>
+
+![wiring](https://zhoujianshi.github.io/articles/LCD1602%E7%9A%84%E4%BD%BF%E7%94%A8/5.png)
