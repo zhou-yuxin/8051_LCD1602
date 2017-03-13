@@ -55,3 +55,7 @@ Otherwire, you should change the macro LCD1602_PORT and the LCD1602_RS,LCD1602_R
 <br>
 否则，你需要修改lcd1602.h中的LCD1602_PORT、LCD1602_RS、LCD1602_RW和LCD1602_E
 </p>
+
+<p>
+详情请见<a href="https://zhoujianshi.github.io/articles/LCD1602%E7%9A%84%E4%BD%BF%E7%94%A8/index.html">《LCD1602的使用》</a>
+</p>
