@@ -2,11 +2,13 @@
 
 <p>
 The Library for MCU 8051(e.g. AT89C51) to write LCD1602
+<br>
 这是一个为8051单片机开发的操作LCD1602的库
 </p>
 
 <p>
 The functions are declared in lcd1602.h, as followings:
+<br>
 库函数定义在lcd1602.h中，如下：
 </p>
 
