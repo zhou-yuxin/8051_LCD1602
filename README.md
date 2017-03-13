@@ -47,7 +47,7 @@ The wiring between 8051 and LCD1602 should be as the picture shows this if you d
 <br>
 如果你不修改lcd1602.h中引脚和端口相关的配置，那么8051与LCD1602之间的连线应该如下图所示：
 <br>
-![](https://zhoujianshi.github.io/articles/LCD1602%E7%9A%84%E4%BD%BF%E7%94%A8/4.png)
+![wiring](https://zhoujianshi.github.io/articles/LCD1602%E7%9A%84%E4%BD%BF%E7%94%A8/4.png)
 </p>
 
 <p>
